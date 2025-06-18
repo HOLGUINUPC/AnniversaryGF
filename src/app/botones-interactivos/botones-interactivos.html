@@ -1,0 +1,27 @@
+<div class="fondo">
+
+
+    <h1>ES 18!!</h1>
+
+<div class="container">
+  <button
+    mat-raised-button
+    color="accent"  (click)="agrandarBoton()"
+    class="boton-gatillo">
+    NO
+
+  </button>
+
+  <button
+    mat-raised-button
+    color="primary"
+    [ngStyle]="{'width.px': anchoBoton, 'height.px': altoBoton, }"
+    class="boton-agrandable"
+    (click)="irAlAmor()"
+  >
+    CELEBREMOS!
+  </button>
+
+
+</div>
+</div>
